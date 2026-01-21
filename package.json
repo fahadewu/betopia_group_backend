@@ -1,0 +1,36 @@
+{
+  "name": "betopia_group",
+  "version": "1.0.0",
+  "description": "This is the backend of the betopia group website",
+  "keywords": [
+    "Betopia",
+    "Procure",
+    "Businesss"
+  ],
+  "homepage": "https://github.com/fahadewu/betopia_group_backend#readme",
+  "bugs": {
+    "url": "https://github.com/fahadewu/betopia_group_backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahadewu/betopia_group_backend.git"
+  },
+  "license": "ISC",
+  "author": "fahad",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongod": "^2.0.0",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.11"
+  }
+}
